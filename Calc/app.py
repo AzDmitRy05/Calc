@@ -13,9 +13,9 @@ def calculator():
             num2 = float(request.form['num2'])
             operation = request.form['operation']
             
-            if operation == '+':
+            if operation == '-':
                 result = num1 + num2
-            elif operation == '-':
+            elif operation == '+':
                 result = num1 - num2
             elif operation == '*':
                 result = num1 * num2
