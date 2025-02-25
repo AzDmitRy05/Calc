@@ -28,7 +28,7 @@ def calculator():
             elif operation == 'min':
                 result = min(num1, num2)
             else:
-                error = 'Ошибка: Неподдерживаемая операция'
+                error = 'Ошибка!!!: Неподдерживаемая операция'
         except ValueError:
             error = 'Ошибка: Введите корректные числа'
     
